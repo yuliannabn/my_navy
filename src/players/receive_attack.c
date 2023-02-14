@@ -47,9 +47,9 @@ void end_coord_transmission(int signal)
     nbs[2]++;
 }
 
-// * This is rly bad, but it works... It uses the nbs[0] to get both
-// * coordinates of where it hits. Then, the modulo is put onto nbs[1] for
-// * further use, to print in map, etc.
+// * use nbs[0] to get both coordinates of where it hits.
+// * Then, the modulo is put onto nbs[1] for further use,
+// * to print in map, etc.
 void receive_attack(map_t *player_map, int enemy_pid, int *turn)
 {
     put_string(WAIT);
