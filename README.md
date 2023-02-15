@@ -20,7 +20,7 @@ These would be the positions of the ships, exclusively with sizes 2, 3, 4 and 5.
 > make re
 
 ## usage:
-To play, open two instances of the terminal. Each terminal will connect with each other by seding the PID of the first one to the second.
+To play, open two instances of the terminal. Each terminal will connect with each other by sending the PID of the first one to the second.
 
 First player:
 > ./my_navy [map]
